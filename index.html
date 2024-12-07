@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weather app</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="card">
-        <div class="search">
-            <input type="text" id="lati" placeholder="Latitude">
-            <input type="text" id="long" placeholder="Longitude">
-            <button><img class="glass" src="C:\Users\Anush\Desktop\ASHTRO\comeback\images\magnify.png" alt="" height="20px" width="20px"></button>
+      <div class="search">
+        <input type="text" id="lati" placeholder="Latitude" />
+        <input type="text" id="long" placeholder="Longitude" />
+        <button>
+          <img
+            class="glass"
+            src="\images\magnify.png"
+            alt=""
+            height="20px"
+            width="20px"
+          />
+        </button>
+      </div>
+      <div class="weather">
+        <h2 class="city">Weather in</h2>
+        <h1 class="temp">51°C</h1>
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt=""
+            class="icon"
+          />
+          <h3 class="description"></h3>
         </div>
-        <div class="weather">
-            <h2 class="city">Weather in </h2> 
-            <h1 class="temp">51°C</h1>            
-            <div class="flex">
-                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
-                <h3 class="description"></h3>
-            </div>
-            <div class="humidity">Humidity: 80%</div>
-            <div class="wind">Wind speed: 2.3Km/h</div>
-        </div>
+        <div class="humidity">Humidity: 80%</div>
+        <div class="wind">Wind speed: 2.3Km/h</div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
